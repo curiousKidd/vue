@@ -63,6 +63,7 @@
 </template>
 
 <script>
+import vuex from 'vuex'
 export default {
   name: 'DefaultLayout',
   data() {
@@ -80,11 +81,6 @@ export default {
           icon: 'mdi-chart-bubble',
           title: 'Inspire',
           to: '/inspire',
-        },
-        {
-          icon: 'mdi-chart-bubble',
-          title: 'test',
-          to: '/socket',
         },
       ],
       miniVariant: false,
