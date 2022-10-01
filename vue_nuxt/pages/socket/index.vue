@@ -5,7 +5,7 @@
 </template>
 
 <script>
-import clientTest from '@/components/socket/clientTest'
+import clientTest from '@/components/socket/clientTest  '
 
 export default {
   components: {

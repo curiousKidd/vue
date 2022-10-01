@@ -63,7 +63,6 @@
 </template>
 
 <script>
-import vuex from 'vuex'
 export default {
   name: 'DefaultLayout',
   data() {
