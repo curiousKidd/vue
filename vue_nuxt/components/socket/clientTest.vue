@@ -13,6 +13,8 @@
 
 <script>
 // import io from 'socket.io-client'
+// import sha512 from 'sha512'
+import sha512 from 'js-sha512'
 
 export default {
   components: {},
@@ -20,6 +22,9 @@ export default {
     return {
       socket: null,
     }
+  },
+  created() {
+    console.log(sha512('itembay!234'))
   },
   mounted() {
     this.makeIO()
