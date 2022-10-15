@@ -15,6 +15,7 @@
   "dependencies": {
     "@nuxtjs/axios": "^5.13.6",
     "core-js": "^3.19.3",
+    "js-sha512": "^0.8.0",
     "nuxt": "^2.15.8",
     "nuxt-socket-io": "^2.0.3",
     "vue": "^2.6.14",
