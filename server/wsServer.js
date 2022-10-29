@@ -10,7 +10,7 @@ app.use("/", (req, res) => {
 });
 
 // 3. 30001 port에서 서버 구동
-const HTTPServer = app.listen(30001, () => {
+const HTTPServer = app.listen(9999, () => {
   console.log("Server is open at port:30001");
 });
 

@@ -117,3 +117,5 @@ socket같은 경우는 tcp/udp 프로토콜 위에서 활동한다
     즉, 요청을 보내면 응답이 오는 **단방향적 구조로 통신**하기 때문에 TCP/IP 프로토콜을 사용하는 소켓처럼 계속 connection이 유지되는 **실시간 통신을 할 수 없다.**
     이의 문제점을 해결하기 위해 나온것이 웹소켓 프로토콜이다.
 ```
+
+https://www.notion.so/curiouskidd/Socket-34c9c61f196a45bcb8b5f983bb333ab0
