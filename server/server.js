@@ -2,7 +2,7 @@ const app = require("express");
 const http = require("http").Server(app);
 const io = require("socket.io")(http, {
   cors: {
-    origin: "*", 
+    origin: "*",
     // cors 오류 방지 -> 반영할때에는 수정 요망
     // https://stackoverflow.com/questions/24058157/socket-io-node-js-cross-origin-request-blocked
   },
@@ -35,6 +35,9 @@ io.on("connection", (socket) => {
   socket.on("nuxt", (data) => {
     console.log("nuxt 웹에서 받은 메세지 : ", data);
     socket.emit("news", "Hello Socket.IO!!");
+  });
+  socket.on("send", (data) => {
+    socket.broadcast.emit("send", data);
   });
   //   socket.interval = setInterval(() => {
   //     //3초마다 클라이언트로 메시지 전송
