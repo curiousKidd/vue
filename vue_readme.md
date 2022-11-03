@@ -30,7 +30,10 @@ Vue.js Dev Tools
 기타
 Prettier, Project Manager, Auto Close Tag, GitLens, Atom Keymap, Jetbrains IDE Keymap 등
 
-## License & Copyright
+### vue template auto create
 
-Copyright © 2019 Captain Pangyo Creative Commons License
-This work is licensed under a Creative Commons Attribution-NonCommercial-NoDerivs 4.0 Unported License.
+`vueinit`
+
+## vuex in nuxt
+
+nuxt module 문법
