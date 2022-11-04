@@ -36,4 +36,12 @@ Prettier, Project Manager, Auto Close Tag, GitLens, Atom Keymap, Jetbrains IDE K
 
 ## vuex in nuxt
 
-nuxt module 문법
+```java
+    store 폴더 밑에 index.js 파일 생성
+
+    .nuxt(빌드폴더) 폴더 안에 자동으로 store.js 파일이 생성됨
+
+    nuxt의 경우 자동으로 vuex를 지원해줌
+```
+
+nuxt module 문법 확인해보기
