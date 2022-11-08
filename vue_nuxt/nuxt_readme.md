@@ -77,3 +77,27 @@ nuxt를 사용하는 이유
 ### v-model
 
 value 속성과, @input event 로 이루어진 양방향 통신 속성
+
+## vuex
+
+> vue.js의 상태 관리 라이브러리이자 패턴을 의미
+
+![img.png](img.png)
+
+> 데이터의 흐름은 `Actions` -> `Mutations` -> `State` 순서임을 알 수 있습니다.
+
+<br/>
+
+## 뷰엑스 기술 요소
+
+뷰엑스의 주요 기술 요소는 다음과 같습니다.
+
+- state
+- getters
+- mutations
+- actions
+
+```java
+'vuex'는 기본적으로 'js'로 구성되어있다
+js의 특징은 '브라우저'가 '새로고침' 되었을 경우 '초기화' 되는 '특성'을 가지고 있기 때문에, 사용의 유의하여야 한다
+```
