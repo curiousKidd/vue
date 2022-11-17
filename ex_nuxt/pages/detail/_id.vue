@@ -21,6 +21,9 @@
 import { createCartItem, fetchProductById } from '@/api/index';
 export default {
   async asyncData({ params }) {
+    // this.$router.push(`detail/${id}`);
+    // params.id -> vue 파일명과 동일
+    // 파일명이 memberId일 경우  params.memberId 사용 
     const response = await fetchProductById(params.id);
     return { product: response.data };
   },
